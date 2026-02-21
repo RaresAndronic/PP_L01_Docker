@@ -4,4 +4,5 @@ semnePunctuatie = ['"', ';', ':', '.', '?', '!', ',', '\'', '-', '[', ']', '(', 
 rezultat = ""
 for caracter in text:
     if caracter not in semnePunctuatie and not caracter.isdigit():
+        caracter = caracter.upper()
         rezultat += caracter
