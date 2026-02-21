@@ -6,3 +6,5 @@ for caracter in text:
     if caracter not in semnePunctuatie and not caracter.isdigit():
         caracter = caracter.upper()
         rezultat += caracter
+print("Rezulatul este: ")
+print(rezultat)
